@@ -1,0 +1,12 @@
+{
+  "tabWidth": 4,
+  "singleQuote": true,
+  "trailingComma": "none",
+  "bracketSpacing": true,
+  "useTabs": true,
+  "eslintIntegration": true,
+  "stylelintIntegration": true,
+  "noTrailingSpaces": true,
+  "jsxBracketSameLine": true,
+  "semi": true
+}

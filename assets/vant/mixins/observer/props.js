@@ -1,0 +1,1 @@
+export function observeProps(t){t&&Object.keys(t).forEach(function(e){var r=t[e];null!==r&&"type"in r||(r={type:r});var o=r.observer;r.observer=function(){o&&("string"==typeof o&&(o=this[o]),o.apply(this,arguments)),this.setData()},t[e]=r})}

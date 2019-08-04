@@ -1,0 +1,1 @@
+import{VantComponent}from"../common/component";VantComponent({props:{border:{type:Boolean,value:!0}}});

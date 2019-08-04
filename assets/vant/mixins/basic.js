@@ -1,0 +1,1 @@
+import{classNames}from"../common/class-names";export var basic=Behavior({methods:{classNames:classNames,$emit:function(){this.triggerEvent.apply(this,arguments)},getRect:function(e,t){var s=this;return new Promise(function(n){wx.createSelectorQuery().in(s)[t?"selectAll":"select"](e).boundingClientRect(function(e){t&&Array.isArray(e)&&e.length&&n(e),!t&&e&&n(e)}).exec()})}}});

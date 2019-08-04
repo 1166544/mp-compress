@@ -1,0 +1,1 @@
+import{VantComponent}from"../common/component";import{transition}from"../mixins/transition";VantComponent({mixins:[transition(!0)],props:{name:{type:String,value:"fade"}}});

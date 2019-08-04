@@ -1,0 +1,1 @@
+export var link=Behavior({properties:{url:String,linkType:{type:String,value:"navigateTo"}},methods:{jumpLink:function(i){void 0===i&&(i="url");var t=this.data[i];t&&wx[this.data.linkType]({url:t})}}});

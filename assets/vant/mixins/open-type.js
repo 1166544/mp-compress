@@ -1,0 +1,1 @@
+export var openType=Behavior({properties:{openType:String},methods:{bindGetUserInfo:function(t){this.$emit("getuserinfo",t.detail)},bindContact:function(t){this.$emit("contact",t.detail)},bindGetPhoneNumber:function(t){this.$emit("getphonenumber",t.detail)},bindOpenSetting:function(t){this.$emit("opensetting",t.detail)},bindError:function(t){this.$emit("error",t.detail)}}});

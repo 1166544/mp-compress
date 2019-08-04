@@ -1,0 +1,1 @@
+export var behavior=Behavior({created:function(){var t=this;if(this.$options){var a={},e=this.setData,i=this.$options().computed,o=Object.keys(i);Object.defineProperty(this,"setData",{writable:!0}),this.setData=function(s,c){var r;s&&e.call(t,s,c),e.call(t,(r={},o.forEach(function(e){var o=i[e].call(t);a[e]!==o&&(a[e]=r[e]=o)}),r))}}},attached:function(){this.setData()}});
