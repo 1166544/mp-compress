@@ -1,5 +1,5 @@
 # mpVue小程序打包 Vender 主包过大时拆分处理示例
-
+ >参考文章 [mpvue小程序上传提示体积超过500KB问题处理](https://juejin.im/post/5d417d955188255d936aa39c)
 
 ## 1.Build Setup
 
